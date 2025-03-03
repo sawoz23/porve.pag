@@ -1,0 +1,489 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagen-fija{
+    background-image: url(porvenir.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 35em;
+}
+
+header{
+    background-color: #ea0000;
+    height: 150px;
+}
+
+.cabezal{
+    display: flex;
+    height: 100px;
+}
+
+.cabezal .link-esc{
+    margin-left: 30px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.link-don{
+    color: black;
+    margin-top: 35px;
+    margin-left: 30px;
+    height: 5px;
+}
+
+.link-don button{
+    background-color: #ea0000;
+    border: 0;
+    cursor: pointer;
+}
+
+.cabezal .historia{
+    margin-left: 250px;
+    margin-top: 40px;
+    width: 350px;
+    height: 30px;
+}
+.historia:hover{
+    color: #00aae4;
+}
+.cabezal .seguimos{
+    margin-left: 150px;
+    margin-top: 35px;
+}
+
+.comienzo{
+    background-color: rgba(128, 128, 128, 0.781);
+    margin-left: 150px;
+    margin-top: 50px;
+    width: 1000px;
+    height: 400px;
+}
+
+
+.space{
+    content: "";
+    height: 20px;
+    width: 30px;
+}
+.comienzo h1{
+    display: block;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+.comienzo .option{
+    height: 60px;
+    width: 1000px;
+    margin-top: 80px;
+}
+
+.links-a .boton{
+    background-color: #ea0000;
+    border-radius: 5px;
+    border: 0;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.links button{
+    background-color: #ea0000;
+    border-radius: 5px;
+    border: 0;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.links-a{
+    margin-left: 150px;
+}
+
+.links{
+    margin-left: 30px;
+}
+
+.redes-club{
+    margin-top: 60px;
+}
+
+
+.linkz-a .boton{
+    background-color: #ea0000;
+    border-radius: 5px;
+    border: 0;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+
+.linkz button{
+    background-color: #ea0000;
+    border-radius: 5px;
+    border: 0;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+}
+
+
+.linkc button {
+    background-color: #ea0000;
+    border-radius: 5px;
+    border: 0;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.linkd button {
+    background-color: #ea0000;
+    border-radius: 5px;
+    border: 0;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+}
+
+
+.linkz-a{
+    margin-left: 50px;
+}
+
+.linkz{
+    margin-left: 30px;
+}
+
+.linkc{
+    margin-left: 30px;
+    position: absolute;
+}
+
+.linkd{
+    margin-left: 260px;
+    position: absolute;
+}
+
+/*footer pc*/
+
+.footer .copi{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.footer{
+    background-color: #00aae4;
+    display: flex;
+    height: 100px;
+    width: 1349px;
+    position: relative;
+    margin-top: 70px;
+}
+
+.footer .redes{
+    margin-top: 15px;
+    margin-left: 500px;
+    list-style: none;
+}
+#insta{
+    color: black;
+}
+
+#insta:hover{
+    color: crimson;
+}
+
+.footer .colabo{
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 400px;
+}
+
+.footer .info-adic{
+    width: 650px;
+}
+/*termina pc*/
+
+/*empieza movil*/
+
+
+.imagen-fijam{
+    background-image: url(porvenir-2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 50em;
+    width: auto;
+}
+
+/*header movi*/
+
+.header-m{
+    background-color: #ea0000;
+    height: 70px;
+}
+
+.cabezal-m{
+    display: flex;
+    height: 80px;
+}
+
+.link-escm{
+    transform: scale(0.5);
+    margin-left: -20px;
+    margin-top: -20px;
+}
+
+.link-donm{
+    color: black;
+    margin-top: 15px;
+    margin-left: -18px;
+    height: 5px;
+}
+
+.donacionesm{
+    font-size: 9px;
+}
+
+.cabezal-m .historiam{
+    margin-left: 23px;
+    margin-top: 15px;
+    font-size: 10px
+}
+.historia-m:hover{
+    color: #00aae4;
+}
+.cabezal-m .seguimosm{
+    margin-left: 23px;
+    margin-top: 15px;
+    font-size: 9px;
+}
+
+/*header movil*/
+
+/*cuerpo movil*/
+
+
+.comienzo-m{
+    background-color: rgba(128, 128, 128, 0.781);
+    margin-left: 18px;
+    margin-top: 20px;
+    width: 400px;
+    height: 780px;
+}
+
+.space-m{
+    content: "";
+    height: 10px;
+    width: 1px;
+}
+.comienzo-m h1{
+    display: block;
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.comienzo-m .option-m{
+    height: 290px;
+    width: 350px;
+    margin-top: 20px;
+}
+
+.links-am .boton-m{
+    background-color: #ea0000;
+    border-radius: 5px;
+    border: 0;
+    margin-left: 95px;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.links-m button{
+    background-color: #ea0000;
+    border-radius: 5px;
+    border: 0;
+    margin-left: 35px;
+    margin-top: 40px;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.linkf-m button {
+    background-color: #ea0000;
+    border-radius: 5px;
+    border: 0;
+    margin-left: 25px;
+    margin-top: 40px;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 20px; 
+}
+
+
+.linkz-am .boton-m{
+    background-color: #ea0000;
+    border-radius: 5px;
+    border: 0;
+    margin-left: 35px;
+    margin-top: 40px;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+.linkz-m button{
+    background-color: #ea0000;
+    border-radius: 5px;
+    border: 0;
+    margin-left: 75px;
+    margin-top: 40px;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+.linkc-m button {
+    background-color: #ea0000;
+    border-radius: 5px;
+    border: 0;
+    margin-left: 35px;
+    margin-top: 40px;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.linkd-m button {
+    background-color: #ea0000;
+    border-radius: 5px;
+    border: 0;
+    margin-left: 105px;
+    margin-top: 40px;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 20px;
+}
+.option2-m{
+    margin-top: 20px;
+}
+
+.links-am{
+    margin-left: 10px;
+}
+
+.links-m{
+    margin-left: 70px;
+}
+.linkf-m{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.linkz-am{
+    margin-left: 70px;
+}
+
+.option3-m{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.linkz-m{
+    margin-left: 30px;
+}
+
+.linkc-m{
+    margin-left: 70px;
+}
+
+.option4-m{
+    margin-top: 20px;
+    margin-left: 160px;
+}
+
+
+/*cuerpo movil*/
+
+/*footer movil*/
+
+.footer-m .copi-m{
+    margin-left: 5px;
+    margin-top: 45px;
+    font-size: 11px;
+}
+
+.footer-m{
+    background-color: #00aae4;
+    display: flex;
+    height: 100px;
+    width: auto;
+    position: relative;
+    margin-top: 81px;
+}
+
+.footer-m .redes-m{
+    list-style: none;
+    width: 150px;
+    transform: scale(0.5);
+    margin-top: -23px;
+    margin-left: 50px;
+}
+.insta-m{
+    color: black;
+}
+
+.insta-m:hover{
+    color: crimson;
+}
+
+.footer-m .colabo-m{
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.footer-m .info-adicm{
+    width: 250px;
+    height: 20px;
+}
+
+
+@media (max-width: 767px) {
+    .imagen-fija{
+        display: none;
+    }
+}
+
+@media (min-width: 991px){
+    .imagen-fijam{
+        display: none;
+    }
+}
